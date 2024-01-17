@@ -59,7 +59,7 @@ public class BookingService {
 		Optional<Show> show = showRepository.findById(showId);
 		if(show.isEmpty()) {
 			throw new Error("No SHow found");
-;		}
+			}
 		
 		List<ShowSeat> showSeat = showSeatRepository.findAllById(showSeatIds);
 		
