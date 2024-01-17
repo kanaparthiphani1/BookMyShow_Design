@@ -13,7 +13,7 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
+@Entity(name="shows")
 public class Show extends BaseModel {
 	// S : M
 	// 1 : 1
