@@ -10,7 +10,7 @@ import lombok.Setter;
 @Getter
 @Setter
 @Entity
-public class User {
+public class User extends BaseModel {
 	private String name;
 	private String email;
 	@OneToMany
